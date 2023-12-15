@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "slogan": "Tasty and Affordable",
+    "text": "We offer some affordable food for everyone everyday",
+    "image": "../img/discount.png"
+  },
+  {
+    "id": "2",
+    "slogan": "Healthy Foods",
+    "text": "All food are freshly made with a strict preparations so anyone could enjoy",
+    "image": "../img/food.png"
+  },
+  {
+    "id": "3",
+    "slogan": "Fast Delivery",
+    "text": "Wanna deliver? You can contact us. Just swipe below",
+    "image": "../img/food-delivery.png"
+  }
+]

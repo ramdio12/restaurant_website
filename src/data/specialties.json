@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Sandwich",
+    "img": "../../img/1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Ramen",
+    "img": "../../img/2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Coffee",
+    "img": "../../img/3.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Ice Cream",
+    "img": "../../img/4.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Fried Chicken",
+    "img": "../../img/5.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Lechon Manok",
+    "img": "../../img/6.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Barbeque",
+    "img": "../../img/7.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Lechon Baboy",
+    "img": "../../img/8.jpg"
+  }
+]
