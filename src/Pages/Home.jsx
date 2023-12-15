@@ -8,7 +8,7 @@ const Home = () => {
 
 
     return (
-        <div className=" bg-home-background bg-center bg-cover opacity-95 brightness-95">
+        <div className="  bg-image bg-center bg-cover opacity-95 brightness-95">
 
             <section id="home"
                 className=" w-full text-center flex items-center justify-center flex-col font-mono min-h-screen">
