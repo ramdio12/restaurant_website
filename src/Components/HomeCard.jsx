@@ -7,7 +7,7 @@ const HomeCard = ({ id, slogan, text, image }) => {
         <motion.div
             initial={{ opacity: 0, translateY: 60 }}
             whileInView={{ opacity: 1, translateY: 0 }}
-            transition={{ duration: 0.5, delay: id * 0.3 }}
+            transition={{ duration: 0.5, delay: id * 0.7 }}
             viewport={{ once: true }}
 
             className=" h-32 md:w-96 bg-white flex items-center justify-center p-2 rounded-md shadow-xl overflow-hidden  hover:scale-110 duration-500 ease-in-out">
