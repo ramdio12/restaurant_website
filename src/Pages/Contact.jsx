@@ -76,7 +76,7 @@ export default Contact
 
 const Icon = ({ icon, children }) => {
     return (
-        <motion.div className="text-xl md:text-2xl  flex items-center justify-center gap-4 cursor-pointer hover:text-red-400 ">
+        <motion.div className=" sm:text-lg md:text-2xl  flex items-center justify-center gap-4 cursor-pointer hover:text-red-400  ">
             <FontAwesomeIcon icon={icon} />
             {children}
         </motion.div>

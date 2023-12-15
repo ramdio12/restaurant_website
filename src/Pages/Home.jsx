@@ -14,7 +14,7 @@ const Home = () => {
                 className=" w-full text-center flex items-center justify-center flex-col font-mono min-h-screen">
                 <div className="md:flex pt-14 text-white" >
                     <div className="basis-1/2">
-                        <div className="mt-12 h-80 w-newwidth mx-auto mb-20 pt-12">
+                        <div className="mt-12 h-80 md:w-newwidth mx-auto mb-20 pt-12 bg-red-500">
                             <motion.img
 
                                 animate={{ scale: 1.1 }}
@@ -23,7 +23,7 @@ const Home = () => {
                                     repeat: Infinity,
                                     duration: 1
                                 }}
-                                src={headerImage} alt="heading" className="w-full" />
+                                src={headerImage} alt="heading" className="w-full bg-red-500" />
                         </div>
 
                     </div>
