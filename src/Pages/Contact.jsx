@@ -48,15 +48,15 @@ const Contact = () => {
 
                                     <Icon>
                                         <FontAwesomeIcon icon={faSquareFacebook} />
-                                        https://www.facebook.com/foodiebruv
+                                        foodiebruv
                                     </Icon>
                                     <Icon>
                                         <FontAwesomeIcon icon={faSquareInstagram} />
-                                        https://www.instagram.com/foodiebruv/
+                                        foodiebruv
                                     </Icon>
                                     <Icon>
                                         <FontAwesomeIcon icon={faSquareTwitter} />
-                                        https://twitter.com/foodiebruv
+                                        foodiebruv
                                     </Icon>
 
                                 </div>
@@ -76,7 +76,7 @@ export default Contact
 
 const Icon = ({ icon, children }) => {
     return (
-        <div className=" text-base  md:text-2xl  flex items-center justify-center gap-4 cursor-pointer hover:text-red-400  ">
+        <div className=" text-2xl md:text-3xl  flex items-center justify-center gap-4 cursor-pointer hover:text-cyan-500  mx-auto">
             <FontAwesomeIcon icon={icon} />
             {children}
         </div>
