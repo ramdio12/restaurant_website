@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 
-const SpecialtiesCard = ({ id, name, img }) => {
+const SpecialtiesCard = ({ name, img }) => {
     return (
         <motion.div
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: id * 0.3 }}
+            transition={{ duration: 0.5 }}
             viewport={{ once: true }}
 
             className=" w-96">
