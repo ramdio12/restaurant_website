@@ -16,13 +16,17 @@ const Home = () => {
                     <div className="basis-1/2">
                         <div className="mt-12 md:h-80 w-72 md:w-newwidth mx-auto mb-20 pt-12 ">
                             <motion.img
-
-                                animate={{ scale: 1.1 }}
-                                transition={{
-                                    repeatType: "mirror",
-                                    repeat: Infinity,
-                                    duration: 1
-                                }}
+                                initial={{ opacity: 0, scale: 0 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                transition={{ duration: 0.5 }}
+                                viewport={{ once: true }}
+                                whileHover={{ scale: 1.1, transitionDuration: 0.5 }}
+                                // animate={{ scale: 1.1 }}
+                                // transition={{
+                                //     repeatType: "mirror",
+                                //     repeat: Infinity,
+                                //     duration: 1
+                                // }}
                                 src={headerImage} alt="heading" className="w-full " />
                         </div>
 
